@@ -39,5 +39,6 @@
 
 
 Category | View Point | Description | Check Answer
+--- | --- | --- | ---
 Task management | [MUST] Is the code related to only the specific issue assigned to you? | The purpose of the written code should be understood from the related issue** or the code itself. If no code belonging to the requested business rule has been written, it must be corrected. | YES
 Cading manner | [MUST] Is all the code easily understood, readable? | if the sourcode is difficult to understand it could be hard for maintainability | YES
