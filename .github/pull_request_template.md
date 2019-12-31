@@ -44,16 +44,12 @@ General | [MUST] Is the code related to only the specific issue assigned to you?
 General | [MUST] Is all the code easily understood, readable? | if the sourcode is difficult to understand it could be hard for maintainability | YES | YES | YES | YES
 General | [MUST] Do the names used in the program convey intent? | variable name, method name is proper or not | YES | YES | YES | YES
 General | [MUST] Does it follow a coding rule applied to the project | Does it conform to your agreed coding conventions? These will usually cover location of braces, variable and function names, line length, indentations, formatting, and comments. | YES | YES | YES | YES
-"General | [MUST] Does the code follow DRY?: Do not Repeat Yourself | Is there any redundant or duplicate code?
-DRY (Do not Repeat Yourself) principle: The same code should not be repeated more than twice.
-Consider reusable services, functions and components.
-Consider generic functions and classes. | YES | YES | YES | YES
+"General | [MUST] Does the code follow DRY?: Do not Repeat Yourself | Is there any redundant or duplicate code? DRY (Do not Repeat Yourself) principle: The same code should not be repeated more than twice. Consider reusable services, functions and components. Consider generic functions and classes. | YES | YES | YES | YES
 General | [MUST] Do loops have a set length and correct termination conditions? | The code shoubld be to avoid infinity loop or deadlock | YES | YES | YES | YES
 General | [MUST] Is there any hard-coded in the code |  | NO | NO | NO | NO
 General | [MUST] Is there any change in database (table, column, ...) and the design is good enough ? | check the design of database | YES | YES | YES | YES
 General | [SHOULD] Is there any new column to database and all of it is consider to have default value or not | sometime the business logic need default value for column in database | YES | YES | YES | YES
-"General | [SHOULD] is there any new column to database, make sure the type of column is suitable | ex: You dont need to define the type of column is text to only store maximum 255 characters.
-In this case string is enough | YES | YES | YES | YES
+"General | [SHOULD] is there any new column to database, make sure the type of column is suitable | ex: You dont need to define the type of column is text to only store maximum 255 characters. In this case string is enough | YES | YES | YES | YES
 General | [MUST] is there any refactoring code that change the input or output of method and all callers of it are changed properly |  | YES | YES | YES | YES
 General | [MUST] is there any new exception that are inserted in code, make sure it will be caught in callers  | make sure the new exception is caught and handle properly | YES | YES | YES | YES
 Performance | [SHOULD] Are there any obvious optimizations that will improve performance? | ex make sure  N+1 query is reduced as much as possible | YES | YES | YES | YES
