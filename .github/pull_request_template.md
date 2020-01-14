@@ -38,6 +38,8 @@
 -->
 
 
+## 
+
 Category | View Point | Description | Expected Reviewer Answer | Reviewer1 (name) | Reviewer2 (name) | Reviewer3 (name)
 --- | --- | --- | --- | --- | --- | ---
 General | [MUST] Is the code related to only the specific issue assigned to you? | The purpose of the written code should be understood from the related issue** or the code itself. If no code belonging to the requested business rule has been written, it must be corrected. | YES | YES | YES | YES |
