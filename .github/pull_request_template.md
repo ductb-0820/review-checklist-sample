@@ -57,7 +57,7 @@ General | [MUST] is there any new exception that are inserted in code, make sure
 Performance | [SHOULD] Are there any obvious optimizations that will improve performance? | ex make sure  N+1 query is reduced as much as possible | YES |   |
 Performance | [SHOULD] is there any change in database (table, column, ...) and the index is considered | it maybe need a to index or not, but make sure you consider it when review | YES |   |
 Performance | [MUST] Can any of the code be replaced with library or built-in functions? | Verify that existing libraries/classes are used instead of writing code from scratch | NO |   |
-Performance | [SHOULD] is there any logging or debugging code be removed? | the debugging and logging code can make the perfomance down |  |   |
+Performance | [SHOULD] is there any debugging code | the debugging and logging code can make the perfomance down | NO |   |
 Security | [MUST] Are all data inputs validated (for the correct type, length, format, and range) | ensure that the data that require validation must be checked | YES |   |
 Security | [MUST] Does the sensitve information store in the code | ensure that GCP/AWS secret key, private key dont store in code | NO |   |
 Security | [SHOULD] Where third-party utilities are used, are returning errors being caught? | make sure dont use black box code | YES |   |
